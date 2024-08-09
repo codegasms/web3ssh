@@ -5,11 +5,13 @@ export const navlinks = [
     name: 'dashboard',
     imgUrl: dashboard,
     link: '/',
+    disabled: false,
   },
   {
     name: 'campaign',
     imgUrl: createCampaign,
     link: '/create-campaign',
+    disabled: false,
   },
   {
     name: 'payment',
@@ -27,6 +29,7 @@ export const navlinks = [
     name: 'profile',
     imgUrl: profile,
     link: '/profile',
+    disabled: false,
   },
   {
     name: 'logout',
